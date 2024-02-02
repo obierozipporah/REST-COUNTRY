@@ -1,10 +1,10 @@
 
 import React, { useState } from 'react';
-import Header from './Components/Header.jsx';
-import Countries from './Components/Countries.jsx';
-import Country from './Components/Country.jsx';
+import Header from '../../COUNTRY/src/Components/Header.jsx';
+import Countries from '../../COUNTRY/src/Components/Countries.jsx';
+import Country from '../../COUNTRY/src/Components/Country.jsx';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import useFetch from './Components/useFetch.jsx';
+import useFetch from '../../COUNTRY/src/Components/useFetch.jsx';
 
 function App() {
   const [inputField, setInputField] = useState('');
@@ -91,4 +91,3 @@ function App() {
 }
 
 export default App;
-
